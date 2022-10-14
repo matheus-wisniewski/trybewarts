@@ -16,10 +16,10 @@
          
         <form class="trybewarts-login">
             <label for="email">
-                <input type="email" name="email" placeholder="Email">
+                <input type="email" name="email" placeholder="Email" id="email">
             </label>
             <label for="password">
-                <input type="password" name="password" placeholder="Senha">
+                <input type="password" name="password" placeholder="Senha" id="password">
             </label>
             <button id="btn-login">Entrar</button>
         </form>   
@@ -117,12 +117,13 @@
 
                 <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
                 <input type="checkbox" name="agreement" id="agreement">
-                <button type="submit" id="submit-btn">Enviar</button>           
+                <button type="submit" id="submit-btn" disabled>Enviar</button>           
         </form>
         <img src="images/trybewarts-colored.svg" alt="imagem" id="trybewarts-forms-logo">
     </main>
     <footer>
         <p>Direitos reservados à Trybewarts©</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
