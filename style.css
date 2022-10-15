@@ -6,8 +6,11 @@
 
 main{
     margin-left: 5%;
+    display: flex;
 }
-
+.trybewarts-login{
+    display: flex;
+}
 .header {
     display: flex;
     background-color: rgb(50, 167, 145);
@@ -16,32 +19,47 @@ main{
     height: 100px;
     margin-bottom: 50px;
 }
-
-    .header h1{
-        color: white;
-        font-size: 50px;
-    }
-
-    .header img{
-        height: 100px;
-        margin-left: 20px;
-    }
-    
-    .header form{
-        margin-right: 10px;
-    }
-
-#evaluation-form{
-    display: flex;
-    flex-direction: column;
-    width: 675px;
+.header h1{
+    color: white;
+    font-size: 50px;
 }
-
+.header img{
+    height: 100px;
+    margin-left: 20px;
+}
+.header form{
+    margin-right: 10px;
+}
 .main{
     display: flex;
-    flex-flow: row wrap;
+    align-items: baseline;
+    border-bottom: 1px solid grey;
 }
-
+.data-container{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+#first-container{
+    padding: 10px;
+    font-size: 21px;
+    gap: 10px;
+}
+#second-container{
+    padding: 10px;
+    font-size: 21px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+#evaluation-form{
+display: flex;
+flex-flow: column wrap;
+width: 675px;
+gap: 10px;
+}      
 #trybewarts-forms-logo{
     height: 500px;
 }
