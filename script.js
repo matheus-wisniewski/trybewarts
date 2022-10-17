@@ -15,6 +15,3 @@ function enableSubmit() {
 }
 btnEnviar.addEventListener('click', alerta);
 agreement.addEventListener('change', enableSubmit);
-
-
-/* teste */
