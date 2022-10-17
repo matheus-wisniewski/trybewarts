@@ -1,4 +1,3 @@
-// const inputPassword = document.getElementById('password');
 const btnEnviar = document.getElementById('btn-login');
 const submitBtn = document.querySelector('#submit-btn');
 const agreement = document.querySelector('#agreement');
@@ -16,3 +15,6 @@ function enableSubmit() {
 }
 btnEnviar.addEventListener('click', alerta);
 agreement.addEventListener('change', enableSubmit);
+
+
+/* teste */
